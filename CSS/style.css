@@ -1,0 +1,182 @@
+body {
+  background-color: #white;
+  margin: 0 0 0 0;
+  text-align: center;
+}
+
+h1 {
+  color: #14274e;
+  font-family: 'Sacramento', cursive;
+  font-size: 7rem;
+  margin: 150px auto 0 auto;
+}
+
+h2 {
+  color: #394867;
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 2.8em;
+  margin: 50px auto;
+}
+
+h3 {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 1.6em;
+  margin: 10px 0 10px 0
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 7px;
+  width: 70px;
+}
+
+p {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 1.25em;
+  margin: 5px;
+}
+
+.subheading {
+  color: #9ba4b4;
+  font-size: 2rem;
+  font-weight: normal;
+  margin: 0;
+  padding-top: 20px;
+}
+
+/***************** TOP CONTAINER CLASSES ******************/
+.top-container {
+  background-color: #f5f5f5;
+  padding-top: 120px;
+}
+
+.mountain {
+  position: relative;
+}
+
+.topcloud {
+  right: 380px;
+  position: absolute;
+  top: 150px;
+}
+
+.bottomcloud {
+  left: 340px;
+  position: absolute;
+  top: 380px;
+}
+
+.profile {
+  margin: 100px auto 100px auto;
+  width: 30%;
+}
+
+.profilepic {
+  border-radius: 800px;
+  width: 45%;
+}
+
+/***************** MID CONTAINER CLASSES ******************/
+.skills {
+  margin: 110px auto;
+  margin-bottom: 120px;
+}
+
+.skills h2 {
+  margin-top: 0;
+}
+
+.skill-row {
+  line-height: 2;
+  margin: 100px auto;
+  text-align: left;
+  width: 50%;
+}
+
+.computerpic {
+  border-radius: 800px;
+  float: left;
+  margin-right: 30px;
+  width: 24%;
+}
+
+.guitarpic {
+  float: right;
+  margin-right: 30px;
+  width: 24%;
+}
+
+.contact-me {
+  margin: 100px auto 50px auto;
+  width: 40%;
+}
+
+.contact-me h2 {
+  margin-top: 0;
+}
+
+.contact-me p {
+  margin: 50px auto;
+}
+
+.CONTACT-BUTTON {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  background: #FFFFFF;
+  background-image: -webkit-linear-gradient(top, #FFFFFF, #6F8073);
+  background-image: -moz-linear-gradient(top, #FFFFFF, #6F8073);
+  background-image: -ms-linear-gradient(top, #FFFFFF, #6F8073);
+  background-image: -o-linear-gradient(top, #FFFFFF, #6F8073);
+  background-image: -webkit-gradient(to bottom, #FFFFFF, #6F8073);
+  border: solid #0059A0 1px;
+  border-radius: 20px;
+  color: black;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Verdana;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.CONTACT-BUTTON:hover {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  background: #64D699;
+  background-image: -webkit-linear-gradient(top, #64D699, #0EB924);
+  background-image: -moz-linear-gradient(top, #64D699, #0EB924);
+  background-image: -ms-linear-gradient(top, #64D699, #0EB924);
+  background-image: -o-linear-gradient(top, #64D699, #0EB924);
+  background-image: -webkit-gradient(to bottom, #64D699, #0EB924);
+  border: solid #86E59B 1px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+/***************** BOTTOM CONTAINER CLASSES ******************/
+.bottom-container {
+  background-color: #f5f5f5;
+  padding: 80px 0 40px 0;
+}
+
+.bottom-container a {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 1.3em;
+  margin: 20px;
+  text-decoration: none;
+}
+.bottom-container a:hover {
+  color: brown;
+}
+
+.bottom-container p {
+  margin-top: 40px;
+}
+
+.copyright {
+  font-size: 1rem;
+}
